@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.2.2"
 
 # Add the platform check and variant command lines here
-ruby '3.2.2', :engine_version => '3.2.2', :engine => 'ruby', :platforms => %w[arm64-darwin-21 x86_64-linux]
+#ruby '3.2.2', :engine_version => '3.2.2', :engine => 'ruby', :platforms => %w[arm64-darwin-21 x86_64-linux]
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.6"
