@@ -22,6 +22,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <% end %>
 
-<div class="my-16">
-	<%== pagy_nav(@pagy) %> 
-</div>
+<% if @pagy.count > @pagy.items %>
+	<div class="my-16">
+		<%== pagy_nav(@pagy) %> 
+	</div>
+<% end %>
